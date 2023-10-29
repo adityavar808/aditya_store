@@ -1,0 +1,214 @@
+#header
+{
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: auto;
+}
+.navbar
+{
+    width: 100%;
+    background-color: #6f42c1;
+    overflow: auto;
+    top: 0;
+    height: 65px;
+    
+}
+
+.navbar div
+{ 
+    display: inline-block;   
+	height: auto; 
+} 
+
+#nav-list
+{
+    float: right;
+    padding: 20px;
+    
+}
+
+#nav-a
+{
+    padding: 8px;
+    color: purple;
+    text-decoration: none;
+    font-size: 20px;
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: white;
+    margin: 8px;
+    transition: 1s;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+#nav-a:hover
+{
+    background-color: black;
+    color: white;
+}
+
+#nv-logo
+{
+    float: left;
+    width: 60px;
+    height: 45px;
+    padding-top: 8px;
+    padding-left: 25px;
+}
+
+#main
+{
+    padding-top: 57px;
+    padding-bottom: 321px;
+}
+
+#product
+{
+    padding-top: 85px;
+}
+
+.main-title{
+    font-weight: bold;
+    font-size: 80px;
+    color: black;
+    text-align: center;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+.title-tag
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    border: 3px solid;
+    transition: 1s;
+}
+.title-tag:hover
+{
+    background-color: #6f42c1;
+    color: white;
+    padding: 10px;
+    border: 3px solid black;
+    cursor: none;
+}
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #6f42c1;
+    }
+    
+    to {
+      text-shadow:0 0 100px #6f42c1, 0 0 100px #6f42c1, 0 0 100px #6f42c1,0 0 100px #6f42c1;
+    }
+}
+
+#left-main
+{
+    margin-top: 250px;
+    text-align: center;
+}
+.pro-images{
+    margin: 13px;
+    width: 383px;
+    height: 395px;
+}
+.pro-div-img
+{
+    border: 7px solid #6f42c1;
+    border-radius: 10px;
+    display: inline-block;   
+	height: auto; 
+    margin: 37px;
+}
+#pro-images-title
+{
+    padding-right: 108px;
+    /* text-align: center; */
+    padding-left: 100px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#contact
+{
+    padding: 80px;
+}
+
+.pro-title{
+    padding-bottom: 40px;
+}
+
+.main-con
+{
+    border: 10px solid #6f42c1;
+    padding: 40px;
+    display:flex;
+    /* width:100%; */
+}
+.details-con
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.con-logo-size
+{
+    width: 100px;
+}
+.map
+{
+    padding-right: 40px;
+} 
+.vr{
+    width: 3px;
+    display:table-cell;
+    background-color:#6f42c1;
+    
+}
+.containercont
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-items {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+}
+.contact-item {
+    /* width: 80%; */
+    text-align: left;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    box-shadow: 0px 0px 20px 0 #0000002c;
+    transition: .4s ease box-shadow;
+}
+.contact-item:hover{
+    box-shadow: 0px 0px 4px 0 #0000002c;
+}
+.con-text1
+{
+    font-size: 13px;
+    font-family: "montserrat",sans-serif;
+    font-weight: bold;
+}
+.con-logo-inside-size
+{
+    width: 20px;
+    height: 17px;
+    padding-top: 10px;
+}
+.con-inside-text
+{
+    padding-top: 10px;
+}
